@@ -1,3 +1,6 @@
+
+<img width="831" height="345" alt="subpeekimage" src="https://github.com/user-attachments/assets/a22063ca-ab8e-4686-aca1-c557afb11ed4" />
+
 ## SubPeek
 
 SubPeek is a subdomain enumeration tool that uses a Rust core for speed and Python for the CLI.
