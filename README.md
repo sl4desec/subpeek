@@ -31,7 +31,7 @@ You need Rust and Python installed.
 
 1. Clone the repository
 ```bash
-git clone https://github.com/sl4de/subpeek
+git clone https://github.com/sl4desec/subpeek
 cd subpeek
 ```
 
