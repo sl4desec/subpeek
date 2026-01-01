@@ -1,3 +1,4 @@
+```text
     ██████  █    ██  ▄▄▄▄    ██▓███  ▓█████ ▓█████  ██ ▄█▀
   ▒██    ▒  ██  ▓██▒▓█████▄ ▓██░  ██▒▓█   ▀ ▓█   ▀  ██▄█▒ 
   ░ ▓██▄   ▓██  ▒██░▒██▒ ▄██▓██░ ██▓▒▒███   ▒███   ▓███▄░ 
@@ -8,8 +9,9 @@
   ░  ░  ░   ░░░ ░ ░   ░    ░ ░░         ░      ░   ░ ░░ ░ 
         ░     ░       ░  ░              ░  ░   ░   ░  ░   
                         ░                                 
+```
 
-## SubPeek
+# SubPeek
 
 SubPeek is a subdomain enumeration tool that uses a Rust core for speed and Python for the CLI.
 
@@ -27,17 +29,23 @@ It gathers subdomains from various passive sources (crt.sh, Anubis, etc), checki
 
 You need Rust and Python installed.
 
-1. Build the binary
+1. Clone the repository
+```bash
+git clone https://github.com/sl4de/subpeek
+cd subpeek
+```
+
+2. Build the binary
 ```bash
 cargo build --release
 ```
 
-2. Install dependencies
+3. Install dependencies
 ```bash
 pip install rich
 ```
 
-3. Run
+4. Run
 ```bash
 python run.py
 ```
