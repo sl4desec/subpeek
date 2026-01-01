@@ -1,0 +1,14 @@
+target/
+**/*.rs.bk
+*.pdb
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.DS_Store
+error.log
+*.json
+Thumbs.db
+ehthumbs.db
+Desktop.ini
